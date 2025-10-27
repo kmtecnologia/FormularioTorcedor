@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Torcedor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+            <p>Sorteio Time do Coração (Série A)</p>
+    </header>
+    
+    <div class="container">
+        <h2>Dados do Torcedor</h2>
+        <br>
+
+    <form id="cadastro" action="#" method="post">
+
+    <label for="nome">Nome Completo:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+    
+    <label for="cpf">CPF:</label>
+    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+    
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+    
+    <label for="WhatsApp">Cel | WhatsApp:</label>
+    <input type="text" name="WhatsApp" id="WhatsApp" placeholder="(00) 0 0000-0000">
+
+    <label>Genêro:</label>
+    <div class="radio-group">
+        <label><input type="radio" name="funcao" value="funcao"> Masculino</label>
+        <label><input type="radio" name="funcao" value="funcao"> Feminino</label>
+        <label><input type="radio" name="funcao" value="funcao"> Outro</label>
+        <label><input type="radio" name="funcao" value="funcao"> Não quero informar</label>
+    </div>
+
+    <label for="Time">Qual seu clube do coração?</label>
+    <select id="time" name="time" required>
+        <option value="">Selecione...</option>
+        <option value="ads">Atlético-MG</option>
+        <option value="ads">Bahia</option>
+        <option value="ads">Botafogo</option>
+        <option value="ads">Bragantino</option>
+        <option value="ads">Ceará</option>
+        <option value="ads">Corinthians</option>
+        <option value="ads">Cruzeiro</option>
+        <option value="ads">Flamengo</option>
+        <option value="ads">Fluminense</option>
+        <option value="ads">Fortaleza</option>
+        <option value="ads">Grêmio</option>
+        <option value="ads">Juventude</option>
+        <option value="ads">Mirassol</option>
+        <option value="ads">Palmeiras</option>
+        <option value="ads">Internacional</option>
+        <option value="ads">São Paulo</option>
+        <option value="ads">Santos</option>
+        <option value="ads">Sport</option>
+        <option value="ads">Vasco</option>
+        <option value="ads">Vitória</option>
+
+    </select>
+
+    <label>Você é um sócio torcedor?</label>
+    <div class="radio-group">
+        <label><input type="radio" name="socio" value="socio"> Sim</label>
+        <label><input type="radio" name="socio" value="socio"> Não</label>
+        </div>
+    
+        <label>Possui a camisa oficial do seu clube do coração?</label>
+    <div class="radio-group">
+        <label><input type="radio" name="camisa" value="camisa"> Sim</label>
+        <label><input type="radio" name="camisa" value="camisa"> Não</label>
+        </div>
+    
+
+    <label for="mensagem">Com qual frequência você vai ao estádio?</label>
+
+        <div class="radio-group">
+    <label class="radio-label">
+        <input type="radio" name="frequencia" value="1"  required> Raramente</label>
+    <label class="radio-label">
+        <input type="radio" name="frequencia" value="2"  required> Pouco</label>
+    <label class="radio-label">    
+        <input type="radio" name="frequencia" value="3"  required> Muito</label>
+    <label class="radio-label">
+        <input type="radio" name="frequencia" value="4"  required> Frequentemente</label>
+        <br>
+        </div>
+
+    <button type="submit">Enviar Formulário</button>
+    <button type="reset">Limpar</button>
+
+        </div>
+    
+
+        <footer>
+
+    <p>Desenvolvido por <a href ="https://github.com/kmtecnologia" target="blank">Adriel Maiche</p>
+
+        </footer>
+    
+
+</body>
+</html>
